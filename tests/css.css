@@ -1,0 +1,19 @@
+.js-this-rule-will-fail {
+  color: red;
+}
+#js-this-fails-too {
+  color: red;
+}
+
+.this-rule-wont-fail {
+  color: green;
+}
+
+.this-rule-should-fail-too .js-this-fails {
+  color: red;
+}
+
+.and-this,
+.js-will-fail-too {
+  color: red;
+}

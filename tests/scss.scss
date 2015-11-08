@@ -1,0 +1,15 @@
+.js-this-rule-will-fail {
+  color: red;
+}
+
+.this-rule-wont-fail {
+  color: green;
+}
+
+.this-rule-wont-fail-either {
+  color: green
+
+  .js-this-fails {
+    color: red;
+  }
+}
